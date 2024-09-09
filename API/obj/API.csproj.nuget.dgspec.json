@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\api\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\api\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\api\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\api\\API.csproj",
+        "packagesPath": "C:\\Users\\j2jer\\.nuget\\packages\\",
+        "outputPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\j2jer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Application\\Application.csproj": {
+                "projectPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\j2jer\\.nuget\\packages\\",
+        "outputPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\j2jer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Domain\\Domain.csproj"
+              },
+              "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\j2jer\\.nuget\\packages\\",
+        "outputPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\j2jer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Persistence\\Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Persistence\\Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\j2jer\\.nuget\\packages\\",
+        "outputPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\j2jer\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\OurDocuments\\JJ Etc\\Where2Next\\SkillsUpdate2024\\Udemy\\StudentAssets\\Demo\\Reactivities\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

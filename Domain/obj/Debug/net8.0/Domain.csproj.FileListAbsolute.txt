@@ -1,0 +1,11 @@
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\bin\Debug\net8.0\Domain.dll
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\bin\Debug\net8.0\Domain.pdb
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\obj\Debug\net8.0\Domain.dll
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\obj\Debug\net8.0\Domain.pdb
+C:\OurDocuments\JJ Etc\Where2Next\SkillsUpdate2024\Udemy\StudentAssets\Demo\reactivities\Domain\obj\Debug\net8.0\ref\Domain.dll
