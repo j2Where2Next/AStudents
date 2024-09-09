@@ -1,0 +1,16 @@
+# Ignore bin and obj folders in specific directories
+API/bin/
+API/obj/
+
+Application/bin/
+Application/obj/
+
+Domain/bin/
+Domain/obj/
+
+Persistence/bin/
+Persistence/obj/
+
+
+# Ignore .exe files
+*.exe
