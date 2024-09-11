@@ -1,13 +1,32 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from 'react'
+import axios from 'axios';
+import { Header, List } from 'semantic-ui-react';
+import { Activity } from '../models/activity';
+
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [activities, setActivities] = useState<Activity[]>([]);
+
+  useEffect(() => {
+    axios.get<Activity[]>('http://localhost:5000/api/activities')
+      .then(response => {
+        console.log(response);
+        setActivities(response.data)
+      })
+  }, [])
 
   return (
-    <h1>Reactivities</h1>
+    <div>
+        <Header as='h2' icon='users' content='Reactivities' />
+        <List>
+          {activities.map(activity => (
+              <List.Item key={activity.id}>
+                {activity.title}
+              </List.Item>
+          ))}
+        </List>
+    </div>
+    
     // <>
     //   <div>
     //     <a href="https://vitejs.dev" target="_blank">
