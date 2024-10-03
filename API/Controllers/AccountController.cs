@@ -10,19 +10,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers;
 
-[AllowAnonymous]
 [ApiController]
 [Route("api/[controller]")]
 public class AccountController : ControllerBase
 {
-        private readonly UserManager<AppUser> _UserManager;
-        private readonly TokenService _tokenService;
+    private readonly UserManager<AppUser> _UserManager;
+    private readonly TokenService _tokenService;
     public AccountController(UserManager<AppUser> UserManager, TokenService tokenService)
     {
             _tokenService = tokenService;
             _UserManager = UserManager;        
     }
 
+    [AllowAnonymous]
     [HttpPost("login")]
     public async Task<ActionResult<UserDto>> Login(LoginDto loginDto)
     {
@@ -41,6 +41,7 @@ public class AccountController : ControllerBase
     }
    
 
+    [AllowAnonymous]
     [HttpPost("register")]
     public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
     {
@@ -71,6 +72,7 @@ public class AccountController : ControllerBase
         return BadRequest(result.Errors);
     }
 
+    [Authorize]
     [HttpGet]
     public async Task<ActionResult<UserDto>> GetCurrentUser()
     {
