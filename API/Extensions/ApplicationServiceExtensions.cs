@@ -1,7 +1,10 @@
 using Application.Activities;
 using Application.Core;
+using Domain;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
@@ -21,7 +24,7 @@ namespace API.Extensions
             {
                 opt.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
-
+            
             services.AddCors(opt =>
             {
                 opt.AddPolicy("CorsPolicy",  policy =>
