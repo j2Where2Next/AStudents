@@ -3,7 +3,6 @@ using API.DTOs;
 using API.Services;
 using Domain;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Components.Routing;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -44,15 +43,17 @@ public class AccountController : ControllerBase
     [AllowAnonymous]
     [HttpPost("register")]
     public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
-    {
-        if (await _UserManager.Users.AnyAsync(x => x.UserName == registerDto.Username))
-        {
-            return BadRequest("Username is already taken");
-        }
-
+    {        
         if (await _UserManager.Users.AnyAsync(x => x.Email == registerDto.Email))
         {
-            return BadRequest("Email is already taken");
+            ModelState.AddModelError("email", "Email taken");
+            return ValidationProblem();
+        }
+        
+        if (await _UserManager.Users.AnyAsync(x => x.UserName == registerDto.Username))
+        {
+            ModelState.AddModelError("username", "Username taken");
+            return ValidationProblem();
         }
 
         var user = new AppUser
