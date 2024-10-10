@@ -2,10 +2,9 @@ import {Button, Header, Segment} from "semantic-ui-react";
 import axios from 'axios';
 import { useState } from "react";
 import ValidationError from "./ValidationError";
-import { set } from "mobx";
 
 export default function TestErrors() {
-    const baseUrl = 'http://localhost:5000/api/';
+    const baseUrl = import.meta.env.VITE_API_URL + '/api/'
     const [errors, setErrors] = useState(null);
 
     function handleNotFound() {
