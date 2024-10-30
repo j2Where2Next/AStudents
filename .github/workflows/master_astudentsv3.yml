@@ -21,17 +21,25 @@ jobs:
         with:
           dotnet-version: '8.x'
 
+      - name: Restore dependencies
+        run: dotnet restore ./API    
+
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: dotnet build ./API --configuration Release
 
       - name: dotnet publish        
-        run: dotnet publish -c Release -o ./bin/Publish
+        run: dotnet publish ./API -c Release -o ./API/bin/Publish
+        env:
+          ConnectionStrings__DefaultConnection: ${{ secrets.AZURE_SQL_CONNECTION_STRING }}
+          TokenKey: ${{ secrets.TOKEN_KEY }}
+
+
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ./bin/Publish
+          path: ./API/bin/Publish
 
   deploy:
     runs-on: windows-latest
