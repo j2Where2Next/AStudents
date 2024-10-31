@@ -37,10 +37,11 @@ app.UseCspReportOnly(opt => opt
     .ScriptSources(s => s.Self())
 );
 
+app.UseSwagger();
+app.UseSwaggerUI();
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    
 }
 else{
     app.Use(async (context, next) =>
@@ -56,9 +57,9 @@ app.UseCors("CorsPolicy");
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseDefaultFiles();
-app.UseStaticFiles();
-app.MapFallbackToController("Index", "Fallback");
+// app.UseDefaultFiles();
+// app.UseStaticFiles();
+// app.MapFallbackToController("Index", "Fallback");
 
 app.MapControllers();
 
